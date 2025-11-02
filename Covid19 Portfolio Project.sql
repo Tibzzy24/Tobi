@@ -1,3 +1,15 @@
+/*
+COVID-19 SQL Data Exploration
+Author: Tobi Adanri
+
+Analyzed COVID-19 data using SQL to uncover insights on:
+- Infection and mortality rates
+- Population impact
+- Vaccination trends by country and continent
+
+Tools: SQL Server (CTEs, Joins, Temp Tables, Views)
+*/
+
 select *
 from PortfolioProject..CovidDeaths
 where continent is not null
@@ -159,4 +171,5 @@ where dea.continent is not null
 
 
 select*
+
 from PercentPopulationVaccinated
